@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "restart": true,
+      "env": {
+        "NODE_OPTIONS": "--inspect"
+      },
+      "cwd": "${workspaceFolder}",
+      "resolveSourceMapLocations": ["${workspaceFolder}/", "!/node_modules/", "!/.next/"],
+      "skipFiles": ["<node_internals>/", "node_modules/", "/.next/**"],
+      "serverReadyAction": {
+        "action": "debugWithChrome",
+        "killOnServerStop": true,
+        "pattern": "- Local:.+(https?://.+)",
+        "uriFormat": "%s"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "equipamento": "Geladeira 451l",
+    "potencia": 165,
+    "consumo": 683,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Microondas 32l",
+    "potencia": 900,
+    "consumo": 0,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Máquina de lavar 11kg",
+    "potencia": 0,
+    "consumo": 0.34,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Lampadas comum (9un)",
+    "potencia": 9,
+    "consumo": 0,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Lampadas LED lustre(4un)",
+    "potencia": 12,
+    "consumo": 0,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Chuveiro Casa 1",
+    "potencia": 7500,
+    "consumo": 0,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Chuveiro Casa 2",
+    "potencia": 6800,
+    "consumo": 0,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Ar-condicionado 12k Btu (2un)",
+    "potencia": 1350,
+    "consumo": 529,
+    "tempoDeUso": 12
+  },
+  {
+    "equipamento": "Ar-condicionado 9k Btu (1un)",
+    "potencia": 1315,
+    "consumo": 911,
+    "tempoDeUso": 12
+  }
+]
